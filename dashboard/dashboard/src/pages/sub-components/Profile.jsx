@@ -61,7 +61,7 @@ const Profile = () => {
       </div>
       <div className="grid gap-2">
       <Label>Linked In</Label>
-      <Input type="text" defaultValue={user.linkenInURL} disabled/>
+      <Input type="text" defaultValue={user.linkedInURL} disabled/>
       </div>
       <div className="grid gap-2">
       <Label>Portfolio URL</Label>

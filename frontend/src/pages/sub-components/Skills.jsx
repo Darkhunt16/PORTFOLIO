@@ -33,6 +33,9 @@ const Skills = () => {
                 <p className="text-muted-foreground text-center">
                   {element.title}
                 </p>
+                <p className="text-muted-foreground text-center">
+                  Proficiency: {element.proficiency}
+                </p>
               </Card>
             );
           })}
